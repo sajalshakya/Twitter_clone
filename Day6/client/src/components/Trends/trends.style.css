@@ -1,0 +1,15 @@
+.trends{
+    padding: 20px 20px 0 ;
+    width: 20%;
+  }
+  .trends h2{
+    color: white;
+  }
+  .trends-light{
+    padding: 20px 20px 0 ;
+    width: 20%;
+  }
+.trends-light h2{
+color: black;
+}
+  

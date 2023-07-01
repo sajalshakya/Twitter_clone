@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+}
+.container{
+
+    max-width: 1170px;
+    margin: 0 auto;
+    padding:  0 16px;
+    display: flex;
+  }
+  .logo{
+    padding: 20px 20px 0 ;
+    width: 20%;
+  }
+  .feedContainer{
+    border-right: 1px solid rgb(53, 53, 53);
+    border-left: 1px solid rgb(53, 53, 53);
+    width: 60%;
+  }
+ .home{
+    padding: 20px ;
+    color: white;
+  }
+  .home-light{
+    padding: 20px ;
+    color: black;
+  }
+  .feed{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  }
+ 
+ 
+  

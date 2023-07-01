@@ -1,0 +1,27 @@
+
+.skeleton-container{
+    margin-bottom: 2em;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+}
+.skeleton-avatar{
+background: #727272;
+height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.skeleton-title{
+background: #727272;
+height: 30px;
+width: 150px;
+margin-left: 10px;
+border-radius: 6px;
+}
+.skeleton-body{
+height: 50px;
+width: 500px;
+border-radius: 6px;
+margin:10px 10px 0;
+background: #727272;
+}

@@ -1,0 +1,37 @@
+.commentBox{
+    border-top: 1px solid rgb(53, 53, 53);
+    border-bottom: 1px solid rgb(53, 53, 53);
+    padding: 20px;
+}
+.commentForm{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+}
+.commentBoxInput{
+    display: flex;
+}
+.commentInpt{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    margin-left: 20px;
+}
+
+.commentInpt::placeholder{
+    font-size: 24px;
+}
+
+.commentBtn{
+    align-self: end !important;
+    background-color: #1D9BF0 !important;
+    color: white !important;
+    font-size: 16px !important;
+    padding: 10px 26px !important;
+    border-radius: 35px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+}

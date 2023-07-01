@@ -1,0 +1,62 @@
+.wrapper{
+    border-top: 1px solid #494949;
+    border-bottom: 1px solid #494949;
+}
+.Container{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #494949;
+}
+.postContent{
+    display: flex;
+    justify-content: space-between;
+}
+.post{
+    margin-left: 20px;
+}
+
+.postUser{
+    color: white;
+    
+}
+.postBodys{
+    color: white;
+    padding-top: 10px;
+}
+.postUser-light{
+    color: black;
+    
+}
+.postBody-light{
+    color: black;
+    padding-top: 10px;
+}
+
+.postAction{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.postComment{
+    display: flex;
+    color: #494949 !important;
+}
+.postComment:hover{
+    color: #1D9BF0 !important;
+}
+.postLike{
+    display: flex;
+    color: #494949 !important;
+}
+.postLike:hover{
+    color: #ff1717 !important;
+}
+.postInfo{
+    display: flex;
+    padding: 10px;
+    color: white;
+    border-bottom:1px solid #494949;
+}
+.infoLike{
+    padding-left: 10px;
+}

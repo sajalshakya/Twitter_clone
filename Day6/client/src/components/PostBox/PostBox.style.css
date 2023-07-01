@@ -1,0 +1,59 @@
+.postBox{
+    border-top: 1px solid rgb(53, 53, 53);
+    border-bottom: 1px solid rgb(53, 53, 53);
+    padding: 20px;
+}
+.postForm{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+}
+.postBoxInput{
+    display: flex;
+}
+.postInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.postTitle{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(53, 53, 53);
+    outline: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.postTitle::placeholder{
+    font-size: 20px;
+}
+.postBody{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(53, 53, 53);
+    outline: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    margin-left: 20px;
+}
+
+.postBody::placeholder{
+    font-size: 20px;
+}
+
+.postBtn{
+    align-self: end !important;
+    background-color: #1D9BF0 !important;
+    color: white !important;
+    font-size: 16px !important;
+    padding: 10px 26px !important;
+    border-radius: 35px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+}

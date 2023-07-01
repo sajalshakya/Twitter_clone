@@ -1,0 +1,32 @@
+.bddy{
+  background-color: black !important;
+}
+.container{
+
+    max-width: 1170px;
+    margin: 0 auto;
+    padding:  0 16px;
+    display: flex;
+  }
+  .postHeader{
+    display: flex;
+    padding: 10px;
+  }
+  .postContainer{
+    border-right: 1px solid rgb(53, 53, 53);
+    border-left: 1px solid rgb(53, 53, 53);
+    width: 60%;
+  }
+  .arrow{
+    color: white !important;
+    cursor:'pointer'!important;
+  }
+  .posts{
+    color: white;
+    padding-left: 10px;
+  }
+  .posts-light{
+    color: black;
+    padding-left: 30px;
+}
+  

@@ -1,0 +1,47 @@
+.commentsContainer{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #494949;
+}
+
+.comments{
+    margin-left: 20px;
+    width: 100%;
+}
+.commentContent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.commentsUser{
+    color: white;
+    
+}
+.commentsBody{
+    color: white;
+    padding-top: 10px;
+
+}
+.commentsUser-light{
+    color: black;
+    
+}
+.commentsBody-light{
+    color: black;
+    padding-top: 10px;
+}
+.commentsAction{
+    display: flex;
+}
+.count{
+    padding-left: 5px;
+    margin: auto;
+}
+.commentsLike{
+    display: flex;
+    padding: 20px 0 0 0 ;
+    color: #494949 !important;
+}
+.commentsLike:hover{
+    color: #ff1717 !important;
+}
